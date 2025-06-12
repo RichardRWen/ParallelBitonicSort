@@ -3,6 +3,7 @@ find_package(OpenSSL REQUIRED)
 
 set(TEST_FILES
     bitonic_seq.cpp
+    bitonic_naive.cpp
 )
 
 foreach(TEST_FILE ${TEST_FILES})
